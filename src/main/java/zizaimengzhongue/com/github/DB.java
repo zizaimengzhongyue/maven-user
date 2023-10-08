@@ -8,7 +8,8 @@ public class DB {
     public static final String User = "root";
     public static final String Password = "123456";
     private static Connection conn = null;
-    static{
+
+    static {
         try {
             // class.forName 语法：找到 com.mysql.jdbc.Driver 类初始化静态变量和执行静态方法
             // 在 com.mysql.jdbc.Driver 类静态方法中包含了注册到 DriverManager 的操作，

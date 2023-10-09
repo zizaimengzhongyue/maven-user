@@ -1,4 +1,4 @@
-package zizaimengzhongue.com.github;
+package zizaimengzhongyue.com.github;
 
 import lombok.Data;
 
